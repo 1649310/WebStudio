@@ -1,0 +1,13 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --background-color: #ECECEC;
+    --background-team-button: #F5F4FA;
+    --accent-color: #2196F3;
+    --second-accent-color: #fff;
+    --background-footer-color: #2F303A;
+}
+
+footer {
+    background-color: var(--background-footer-color);
+}
