@@ -87,6 +87,7 @@ body {
     padding: 200px 0;
     text-align: center;
     background-color: var(--bg-footer-color);
+    background-image: url(/images/main-page/hero-bg.png);
 }
 
 .hero-title {
@@ -110,6 +111,7 @@ body {
     letter-spacing: 0.06em;
     border-radius: 4px;
     font-family: var(--main-font);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* details */
@@ -179,7 +181,7 @@ body {
     border-radius: 0 0 4px 4px;
     text-align: center;
     background-color: var(--second-accent-color);
-    background-repeat: no-repeat;
+box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .teams-image {
@@ -278,7 +280,9 @@ body {
     justify-content: space-between;
 }
 .portfolio-item {
-    border: 1px solid var(--border-portfolio);
+    border-bottom: 1px solid var(--border-portfolio);
+    border-right: 1px solid var(--border-portfolio);
+    border-left: 1px solid var(--border-portfolio);
 }
 .portfolio-item:hover {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
